@@ -4,6 +4,7 @@
 # Date: 09/21/2026
 # Version: v1
 
+set -v
 << comment
 
 This script is used to monitor the AWS resources usage"
@@ -16,16 +17,18 @@ comment
 
 # List s3 buckets
 echo "Listing S3 buckets"
-aws s3 ls
+aws s3 ls >> resourceTracker
 
 # List EC2 insatnces
 echo "Listing Ec2 instances"
-aws ec2 describe-instances
+# aws ec2 describe-instances -- it will list a lot of info about the instances, some of them are not required
+# To get only Instance Id
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId' >> resourceTracker
 
 # List IAM users
 echo "Listing IAM users"
-aws iam list-users
+aws iam list-users >> resourceTracker
 
 # List Lambda functions
 echo "Listing Lambda functions"
-aws lambda list-functions
+aws lambda list-functions >> resourceTracker
