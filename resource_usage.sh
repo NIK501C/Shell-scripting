@@ -4,7 +4,9 @@
 # Date: 09/21/2026
 # Version: v1
 
-set -v
+export PATH=/usr/local/bin:/usr/bin:/bin
+export AWS_PROFILE=default
+
 << comment
 
 This script is used to monitor the AWS resources usage"

@@ -25,3 +25,60 @@
 {
     "Functions": []
 }
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Nikki",
+            "UserId": "AIDAUAJRBR2C6TXXGYR4I",
+            "Arn": "arn:aws:iam::275517640325:user/Nikki",
+            "CreateDate": "2026-09-23T03:52:35+00:00"
+        }
+    ]
+}
+{
+    "Functions": []
+}
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Nikki",
+            "UserId": "AIDAUAJRBR2C6TXXGYR4I",
+            "Arn": "arn:aws:iam::275517640325:user/Nikki",
+            "CreateDate": "2026-09-23T03:52:35+00:00"
+        }
+    ]
+}
+{
+    "Functions": []
+}
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Nikki",
+            "UserId": "AIDAUAJRBR2C6TXXGYR4I",
+            "Arn": "arn:aws:iam::275517640325:user/Nikki",
+            "CreateDate": "2026-09-23T03:52:35+00:00"
+        }
+    ]
+}
+{
+    "Functions": []
+}
+"i-04d6b4c983c3ec7f5"
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Nikki",
+            "UserId": "AIDAUAJRBR2C6TXXGYR4I",
+            "Arn": "arn:aws:iam::275517640325:user/Nikki",
+            "CreateDate": "2026-09-23T03:52:35+00:00"
+        }
+    ]
+}
+{
+    "Functions": []
+}
